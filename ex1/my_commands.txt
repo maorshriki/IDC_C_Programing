@@ -1,0 +1,9 @@
+mkdir dir1
+cp -r /share/ex_data/ex1/* dir1
+mv dir1/test_dir2/ex*.* dir1/test_dir1/
+cd dir1/test_dir1
+rm -r ../test_dir2
+chmod 765 -R .
+chmod u-w assignment1.txt
+ls *2.txt > file.txt
+echo idc >> file.txt
